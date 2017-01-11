@@ -28,4 +28,4 @@ config :watchlist, Watchlist.Repo,
   password: "postgres",
   database: "watchlist_dev",
   hostname: "localhost",
-  pool_size: 10
+  pool_size: Ecto.Adapters.SQL.Sandbox
